@@ -8,8 +8,8 @@ function App() {
     flex items-center justify-center"
       >
         <div className="w-full h-full">
-          <h1 className="text-xl md:text-2xl font-bold leading-tight mt-12">
-            Log in to your account
+          <h1 className="text-xl text-gray-700 md:text-2xl font-bold leading-tight mt-12">
+            Log in to your Auide account
           </h1>
           <form className="mt-6" action="#" method="POST">
             <div>
@@ -95,17 +95,18 @@ function App() {
               <span className="ml-4">Log in with Google</span>
             </div>
           </button>
-          <p className="mt-8 ">
-          
+          <p className="mt-4 ">
+          Need an account?
             <a
               href="#"
-              className="text-blue-500 hover:text-blue-700 font-semibold "
+              className="text-blue-500 hover:text-blue-700 font-semibold pl-2 "
             >
               Create an account
             </a>
           </p>
         </div>
       </div>
+      
     </section>
   );
 }
